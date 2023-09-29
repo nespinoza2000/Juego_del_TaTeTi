@@ -1,0 +1,69 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-cells {
+    display: flex;
+}
+
+.cells {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 150px;
+    width: 150px;
+    background-color: white;
+
+    text-align: center;
+    font-size: 100px;
+}
+
+.box-right {
+    border-right: 3px solid black;
+}
+
+.box-bottom {
+    border-bottom: 3px solid black;
+}
+
+.box-left {
+    border-left: 3px solid black;
+}
+
+.content-buttom{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+/* Estilo base del botón */
+#reboot{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  /* Efecto de sombra y relieve al pasar el cursor */
+  #reboot:active {
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    transform: translateY(2px);
+}
+  
+
+/*Agrega estylos dependiendo de las clases agregadas en el javascrip*/
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
